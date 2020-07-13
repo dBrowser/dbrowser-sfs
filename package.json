@@ -1,7 +1,7 @@
 {
-  "name": "scoped-fs",
-  "version": "1.4.1",
-  "description": "An FS wrapper that keeps all access scoped to a specific folder.",
+  "name": "dbrowser-sfs",
+  "version": "1.0.0",
+  "description": "dBrowser scoped file system plugin.",
   "main": "index.js",
   "scripts": {
     "test": "ava -s test.js"
