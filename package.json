@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pfrazee/scoped-fs.git"
+    "url": "git+https://github.com/dbrowser/dbrowser-sfs.git"
   },
   "keywords": [
     "files",
@@ -18,9 +18,9 @@
   "author": "Paul Frazee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pfrazee/scoped-fs/issues"
+    "url": "https://github.com/dbrowser/dbrowser-sfs/issues"
   },
-  "homepage": "https://github.com/pfrazee/scoped-fs#readme",
+  "homepage": "https://github.com/dbrowser/dbrowser-sfs#readme",
   "devDependencies": {
     "ava": "^0.25.0",
     "fs-jetpack": "^2.1.1",
