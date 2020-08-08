@@ -1,15 +1,15 @@
-# scoped-fs
+# dbrowser-sfs
 
 An FS wrapper that keeps all access scoped to a specific folder.
 
 ```
-npm install scoped-fs
+npm install dbrowser-sfs
 ```
 
 ## Usage
 
 ```js
-var ScopedFS = require('scoped-fs')
+var ScopedFS = require('dbrowser-sfs')
 
 var fs = new ScopedFS('/home/bob')
 fs.readFile('/hello.txt', 'utf8', function (err, content) {
@@ -42,7 +42,7 @@ Creates a scoped FS instance. All reads and writes will be restricted to `basepa
 
 #### `var stopwatch = sfs.watch(name, fn)`
 
-Create a [recursive-watch](https://github.com/mafintosh/recursive-watch) instance.
+Create a [recursive-watch](https://github.com/distributedweb/recursive-watch) instance.
 
 #### `sfs.setFilter(fn)`
 
